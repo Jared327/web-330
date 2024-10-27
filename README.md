@@ -1,2 +1,4 @@
-# web-330
-Repository for web-330 Enterprise JavaScript 2
+# WEB 330 Enterprise JavaScript 2
+## Contributors
+* Richard Krasso
+* Jared Dwyer
