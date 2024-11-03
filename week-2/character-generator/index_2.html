@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    Pragmatic JavaScript
+    Chapter 1
+    Programming Assignment
+
+    Author: Jared Dwyer
+    Date: 11/2/24
+    Filename: index_2.html
+  -->
+    <title>Roleplay Character Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <form id="characterForm">
+        <label for="heroName">Hero Name:</label><br />
+        <input type="text" id="heroName" name="heroName" required /><br />
+        <label for="heroGender">Hero Gender:</label><br />
+        <select id="heroGender" name="heroGender" required>
+          <option value="">Select...</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option></select>
+          <br />
+        <label for="heroClass">Hero Class:</label><br />
+        <select id="heroClass" name="heroClass" required>
+          <option value="">Select...</option>
+          <option value="Warrior">Warrior</option>
+          <option value="Mage">Mage</option>
+          <option value="Rogue">Rogue</option></select>
+          <br />
+        <button id="generateHero">Generate Hero</button>
+      </form>
+
+      <div id="characterOutput"></div>
+    </div>
+
+    <script src="script_2.js"></script>
+  </body>
+</html>
