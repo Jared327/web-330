@@ -1,0 +1,45 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author:
+  Date:
+  Filename:
+*/
+
+/* Add your CSS styles here */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* CSS reset */
+html, body, div, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* body */
+body {
+  margin: 25% 0;
+  background-color: aquamarine;
+  color: black;
+}
+
+.chef-container {
+  width: 40%;
+  margin: 0px auto 10px;
+  padding: 4px 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* Error Message */
+#error {
+  color: red;
+  font-weight: bold;
+}
